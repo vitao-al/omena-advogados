@@ -13,7 +13,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dr. Joanisio Omena',
     role: 'Advogado criminalista',
     specialties: ['Direito Empresarial', 'Direito Tributário'],
-    image: './assets/joanisioomena.jpeg',
+    image: '/joanisioomena.jpeg',
     oab: 'OAB/AL 8.101'
   },
   {
@@ -21,7 +21,7 @@ export const lawyers: Lawyer[] = [
     name: 'Dra. Kyvia Maciel',
     role: 'Sócia',
     specialties: ['Direito Civil', 'Direito de Família'],
-    image: './assets/kyviamaciel.jpeg',
+    image: '/kyviamaciel.jpeg',
     oab: 'OAB/AL 16.724'
   },
 

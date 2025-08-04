@@ -81,19 +81,20 @@ export default function InstagramGallery() {
               className="group cursor-pointer bg-white dark:bg-neutral-800 rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden"
               onClick={() => setSelectedPost(post)}
             >
-              <div className="relative overflow-hidden">
-                <img
-                  src={post.imageUrl}
-                  alt="Post do Instagram"
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                  <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-center">
-                    <Instagram className="h-8 w-8 mx-auto mb-2" />
-                    <p className="text-sm font-medium">Ver post completo</p>
+                <div className="relative bg-black flex items-center justify-center overflow-hidden">
+                  <img
+                    src={post.imageUrl}
+                    alt="Post do Instagram"
+                    className="w-full h-64 object-contain bg-black transition-transform duration-300 group-hover:scale-105"
+                    style={{ maxHeight: '16rem' }}
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-center">
+                      <Instagram className="h-8 w-8 mx-auto mb-2" />
+                      <p className="text-sm font-medium">Ver post completo</p>
+                    </div>
                   </div>
                 </div>
-              </div>
               <div className="p-4">
                 <div className="flex items-center justify-end mb-2">
                   <span className="text-xs text-gray-500">
@@ -110,13 +111,13 @@ export default function InstagramGallery() {
 
         <div className="text-center mt-12">
           <a
-            href="https://instagram.com/omenaadvogados"
+            href="https://www.instagram.com/omena.adv?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg hover:from-purple-600 hover:to-pink-600 transition-colors font-semibold"
           >
             <Instagram className="h-5 w-5" />
-            <span>Seguir @omenaadvogados</span>
+            <span>Seguir @omena.adv</span>
           </a>
         </div>
       </div>

@@ -29,7 +29,7 @@ export default function About() {
               Tradição e Excelência em Serviços Jurídicos
             </h2>
             <p className="text-neutral-900 dark:text-white mb-6">
-              Fundado em 2004, o escritório Silva & Associados construiu uma sólida reputação
+              Fundado em 2004, o escritório Omena & Advogados construiu uma sólida reputação
               baseada na excelência dos serviços prestados e no compromisso com os interesses
               de nossos clientes.
             </p>

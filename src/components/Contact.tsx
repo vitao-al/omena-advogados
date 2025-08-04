@@ -27,14 +27,14 @@ export default function Contact() {
                   <Phone className="h-6 w-6 text-gold-500 dark:text-gold-500 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Telefone</h4>
-                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">(11) 3000-0000</p>
+                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">(82) 9xxxx-xxxx</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Mail className="h-6 w-6 text-gold-500 dark:text-gold-500 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">E-mail</h4>
-                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">contato@silvaassociados.com.br</p>
+                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">omenaadvogados@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
