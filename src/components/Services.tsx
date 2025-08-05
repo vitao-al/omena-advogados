@@ -1,36 +1,21 @@
 import React from 'react';
-import { Briefcase, Scale, FileText, Building2, Users, Landmark } from 'lucide-react';
+import { Tally5, Scale,Users, Landmark } from 'lucide-react';
 
 const services = [
   {
-    icon: <Scale className="h-8 w-8" />,
-    title: 'Direito Civil',
-    description: 'Contratos, responsabilidade civil, direito das sucessões e família.'
-  },
-  {
-    icon: <Building2 className="h-8 w-8" />,
-    title: 'Direito Empresarial',
-    description: 'Assessoria jurídica completa para empresas e empreendedores.'
+    icon: <Tally5 className="h-8 w-8" />,
+    title: 'Direito Criminal',
+    description: 'O Direito Criminal regula crimes e punições, assegurando justiça e os direitos de todos os envolvidos.'
   },
   {
     icon: <Users className="h-8 w-8" />,
-    title: 'Direito Trabalhista',
-    description: 'Defesa dos direitos trabalhistas e relações de trabalho.'
+    title: 'Direito Cívil',
+    description: 'Contratos, responsabilidade civil, direito das sucessões e família.'
   },
   {
     icon: <Landmark className="h-8 w-8" />,
-    title: 'Direito Tributário',
-    description: 'Planejamento tributário e resolução de conflitos fiscais.'
-  },
-  {
-    icon: <FileText className="h-8 w-8" />,
-    title: 'Direito Contratual',
-    description: 'Elaboração e análise de contratos comerciais e civis.'
-  },
-  {
-    icon: <Briefcase className="h-8 w-8" />,
-    title: 'Direito Administrativo',
-    description: 'Representação junto a órgãos públicos e licitações.'
+    title: 'Direito Previdenciário',
+    description: 'O Direito Previdenciário garante ao cidadão proteção em casos de aposentadoria, doença, maternidade e outros riscos sociais.'
   }
 ];
 

@@ -18,10 +18,10 @@ export default function Hero() {
               Excelência e Compromisso em Advocacia
             </h1>
             <p className="text-lg md:text-xl mb-8 text-gray-100">
-              Defendendo seus direitos com dedicação e profissionalismo há mais de 20 anos
+              Omena & Advogados transforma conhecimento em excelência para fazer a diferença no Direito.
             </p>
             <a
-              href="#contato"
+              href="https://api.whatsapp.com/send/?phone=%2B5582999786475&text&type=phone_number&app_absent=0&wame_ctl=1"
               className="inline-block bg-gold-500 dark:bg-gold-500 text-white px-6 md:px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-gold-500 dark:hover:bg-white hover:dark:text-gold-500 transition-colors text-sm md:text-base"
             >
               Agende uma Consulta

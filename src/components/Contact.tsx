@@ -41,7 +41,7 @@ export default function Contact() {
                   <Clock className="h-6 w-6 text-gold-500 dark:text-gold-500 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Horário de Atendimento</h4>
-                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">Segunda a Sexta: 9h às 18h</p>
+                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">Segunda a Sexta: 9h às 17h</p>
                   </div>
                 </div>
               </div>
