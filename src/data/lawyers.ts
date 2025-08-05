@@ -26,7 +26,7 @@ export const lawyers: Lawyer[] = [
   },
     {
     id: 3,
-    name: 'Dra. Franscisco Sales',
+    name: 'Dr. Franscisco Sales',
     role: 'Sócio',
     specialties: ['Direito Criminal',],
     image: '/francisco.jpeg',
