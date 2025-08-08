@@ -30,13 +30,13 @@ export default function ChatBot() {
   }, [messages]);
 
   const handleSend = (message: string) => {
-    // Add user message
+    // Adicionar mensagem do usuário
     setMessages(prev => [...prev, { text: message, isBot: false }]);
 
-    // Find best matching response
+    // Encontra a melhor resposta correspondente
     const response = findBestMatch(message, faqs);
     
-    // Add bot response with a small delay
+    // Adiciona a resposta do bot com um pequeno atraso
     setTimeout(() => {
       setMessages(prev => [...prev, {
         text: response,
